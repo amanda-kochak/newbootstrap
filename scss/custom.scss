@@ -1,0 +1,17 @@
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    }
+}
+.navbar-collapse {
+    justify-content: flex-end;    
+}
+
+body {
+    font-family: 'Mulish';font-size: 22px;
+}
