@@ -1,4 +1,7 @@
 
+$enable-shadows: true;
+$primary: #de3f52;
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -15,3 +18,31 @@
 body {
     font-family: 'Mulish';font-size: 22px;
 }
+
+.card {
+    border-radius: 20px;
+    box-shadow:0 .15rem .5rem rgba($black, .075);
+}
+
+.card-title {
+    color:$primary;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.custombg {
+    background: #F7F7F7;
+}
+
+
+.circle-with-text {
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    border-radius: 50%;
+    font-size: 40px;
+    font-family: 'Mulish';
+    color: #fff;
+    text-align: center;
+    background: #DF4154
+  }
