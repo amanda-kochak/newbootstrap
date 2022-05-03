@@ -12,9 +12,9 @@
   <body>
 
     <!--This is the Nav Bar-->
-    <div class="container-fluid custombg">
+    <div class="container-fluid custombg" style="background-color:#F7F7F7">
         <!-- Content Here -->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F7F7F7">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#F7F7F7">
           <div class="container-fluid">
             <a class="navbar-brand fw-bold" href="#">Accessibility, Equity, and Resources for Crisis Response</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,22 +46,179 @@
         </nav>
     </div>
 
-    <div class="container text-center mt-5 pt-5 pb-5">
-        <h1 class="fw-bold">This is the Method</h1>
-
-        <div id="observablehq-chart-80c5a19f"></div>
-
-
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/3281622062722dc3.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-80c5a19f"));
-});
-</script>
-
-
+    <!--This is the Header-->
+    <div class="container-fluid custombg">
+    <div class="container pt-5 mt-5 px-5">
+      <div class="row align-items-center">
+        <div class="col-md-1 pe-5">   
+          <!--This is intentionally left blank-->
+        </div>
+        <div class="col-md-4 pe-5">   
+          <img src="/cycle.9003ac20.png" class="img-fluid float-end" alt="research and design cycle">
+        </div>
+        <div class="col-md-7">   
+          <h1 class="fw-bold">Methods</h1>  
+          <p>
+              Our team leveraged a variety of research techniques to understand the emergency services problem space, facilitate design decisions, and ultimately develop a solution that addresses critical needs for the accesSOS users.
+          </p>
+        </div>
+      </div>
     </div>
+    </div>
+
+    <!--These are the stats-->
+    <div class="container-fluid">
+      <div class="container px-5">
+
+        <div class="row pt-5">
+
+          <div class="col-md-4 text-center">
+            <h2 class="fw-bold">9<br>Semi-structured<br>Interviews</h2>
+            <br>
+            <img src="/inverview.71d424d5.png" width="200" alt="interview">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <h2 class="fw-bold">100<br>Card Sort & Survey<br>Respondents</h2>
+            <br>
+            <img src="/survey.d416dae9.png" class="img-fluid float-end" alt="survey">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <h2 class="fw-bold">8<br>Usability Test<br>Participants</h2>
+            <br>
+            <img src="/usability-test.983035bd.png" width="200" alt="usability test">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--This is the first method-->
+    <div class="container-fluid custombg mb-5 mt-5 pb-5">
+      <div class="container pt-5 px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Semi-structured Qualitative Interviews</h2>    
+            <p>
+              In order to incorporate 988 into our app design, we knew we needed to develop an understanding of the needs of users that might use the service from experts already involved in mental illness and police response.  Therefore, we interviewed Crisis Intervention Specialists in cities across the country.
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="/number01.010e0847.png" class="img-fluid float-end" alt="number 1">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          <b>Crisis intervention specialists aim to avoid calling the police as much as possible.</b> They only involve the police in situations where the caller/person in question has a weapon, is violent or is actively trying to harm themselves or others.
+          <br>
+          <br>
+          <b>Crisis intervention specialists try to build trust and create a safe environment for the caller.</b> The majority of calls that crisis intervention specialsits  received were those regarding domestic abuse, depression, mental breakdowns, suicide ideation, and anxiety as a result of COVID’s stay at home orders. Being that these are all sensitive topics, callers may be reluctant to divulge information unprompted. Building trust and a safe environment allows the caller to feel comfortable speaking about their situations and thought processes.
+        </p>
+      </div>
+    </div>
+
+    <!--This is the second method-->
+    <div class="container-fluid mb-5 mt-5 pb-5">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Card Sort</h2>    
+            <p>
+              We conducted two card sort studies - one open card sort and a closed card sort. Our goal with these card sort studies was to understand people’s mental models and how they categorize different icons into groups.
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="/number02.71e6b1d3.png" class="img-fluid float-end" alt="number 2">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          <b>Out of the 25 icons that we had, there were 5 that a majority of our users incorrectly categorized into the buckets for Medical, Report and Mental.</b> These were the icons for  Extreme Weather, Housing, Unknown Problem, Welfare Check and Disability.
+        </p>
+      </div>
+    </div>
+
+    <!--This is the third method-->
+    <div class="container-fluid custombg mb-5 mt-5 pb-5">
+      <div class="container pt-5 px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Survey</h2>    
+            <p>
+              We also conducted a qualtrics survey to further understand icon comprehension.  We showed our participants pictures of the icons in our app, absent a text descriptor, and asked them to label them with just one word.            
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="/number03.d4cdf9ab.png" class="img-fluid float-end" alt="number 3">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          <b>For 5 icons, there was a clear mismatch between how we labeled them and how our participants labeled them.</b> These were the icons for Unconscious, Mental Health, Suicide, Sexual Assualt and Unknown Problem.
+        </p>
+      </div>
+    </div>
+
+    <!--This is the fourth method-->
+    <div class="container-fluid mb-5 mt-5 pb-5">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Quantitative Research</h2>    
+            <p>
+              We analyzed publicly available 911 calls for service data for 6 cities in order to understand existing call center categorization schemes of emergencies.  This involved data cleaning, feature engineering, and call type standardization.          
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="/number04.f42c346a.png" class="img-fluid float-end" alt="number 4">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          After standardizing hundreds of call types, we found the most common call types revolved around traffic, property crime, assisting the public, suspicious persons, domestic violence, drugs, and behavioral health.        
+        </p>
+      </div>
+    </div>
+
+    <!--This is the fifth method-->
+    <div class="container-fluid custombg mb-5 mt-5 pb-5">
+      <div class="container pt-5 px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Usability Study</h2>    
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales consectetur dictum. Nullam in molestie arcu. Ut vestibulum arcu velit, ornare mollis nisl euismod sed. In sed erat eu dolor bibendum sodales quis sed magna. Curabitur ut eros rhoncus, faucibus augue quis, mollis dui. 
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="/number05.b8c9a3d4.png" class="img-fluid float-end" alt="number 5">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales consectetur dictum. Nullam in molestie arcu. Ut vestibulum arcu velit, ornare mollis nisl euismod sed. In sed erat eu dolor bibendum sodales quis sed magna. Curabitur ut eros rhoncus, faucibus augue quis, mollis dui. 
+        </p>
+      </div>
+    </div>
+
+        <!--This is the Footer-->  
+        <div class="container-fluid custombg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">   
+                  <!-- Placeholder -->
+              </div>
+              <div class="col-md-4 text-center">
+                  <p>University of California, Berkeley, School of Information, MIMS 2022.</p>
+              </div>
+              <div class="col-md-4">   
+                  <!-- Placeholder -->
+              </div>
+            </div>
+          </div>
+        </div>
 
     <script src="/src.e31bb0bc.js"></script>
   </body>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../scss/custom.scss">
+    <link rel="stylesheet" href="https://amanda-kochak.github.io/newbootstrap/dist/custom.18d3a4a7.css">
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
 
     <title>Accessibility, Equity, and Resources for Crisis Response</title>
@@ -12,9 +12,9 @@
   <body>
 
     <!--This is the Nav Bar-->
-      <div class="container-fluid custombg">
+      <div class="container-fluid custombg" style="background-color:#F7F7F7">
           <!-- Content Here -->
-          <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F7F7F7">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#F7F7F7">
             <div class="container-fluid">
               <a class="navbar-brand fw-bold" href="#">Accessibility, Equity, and Resources for Crisis Response</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Problem</a>
+                    <a class="nav-link active" aria-current="page" href="https://amanda-kochak.github.io/newbootstrap/dist/index.html">Problem</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="solution.html">Solution</a>
@@ -33,12 +33,12 @@
                       Process
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="methods.html">Methods</a></li>
-                      <li><a class="dropdown-item" href="design.html">Design</a></li>
+                      <li><a class="dropdown-item" href="https://amanda-kochak.github.io/newbootstrap/dist/methods.html">Methods</a></li>
+                      <li><a class="dropdown-item" href="https://amanda-kochak.github.io/newbootstrap/dist/design.html">Design</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="story.html">Our Story</a>
+                    <a class="nav-link" href="https://amanda-kochak.github.io/newbootstrap/dist/story.html">Our Story</a>
                   </li>
                 </ul>
               </div>
@@ -46,88 +46,181 @@
           </nav>
       </div>
 
-    <!--This is the Header-->    
-      <div class="container text-center mt-5 pt-5 pb-5">
-          <h1 class="fw-bold">Emergency Services Are Not Equitable for Everyone</h1>
+
+    <!--This is the Header--> 
+      <div class="container-fluid custombg mt-5 mb-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/hero-image.png" class="img-fluid float-end" alt="pwa choose emergency">
+              </div>
+            </div>
+        </div>
       </div>
+
 
     <!--This is the scrollytelling-->
 
-    <section id='scroll'>
-      <!--  graphic container  -->
-      <div class='scroll__graphic'>
-        <!--   actual graphic/chart   -->
-        <div class='chart'>
-          <p>0</p>
+      <div class="container-fluid" id="root">
+        <div class="row justify-content-center" id="scrolly__section">
+
+          <div class="col-4 scrolly__content">
+
+            <div class="step" data-step="1">
+              <div class="text-block pa-2">
+                <p class="text-body-2"><b>37 Million Americans can't hear or speak out loud.</b></p>
+                <p>Despite this, <b>70%</b> of 911 call centers in the US are unable to receive text messages.  The legacy equipment these call centers use is expensive and difficult to replace, and can’t receive text messages or detect location from mobile devices.  This leaves deaf and hard of hearing people with often suboptimal methods for contacting 911 when they are in the throes of an emergency situation.</p>
+              </div>
+            </div>
+            <div class="step" data-step="2">
+              <div class="text-block pa-2">
+                <p class="text-body-2"><b>1 in 10 Fatal police encounters have involved an individual with a known mental illness.</b></p>
+                <p class="text-body-2">Nationally, <b>104 people</b> undergoing a mental health crisis were fatally shot by police in 2021 alone.  In the majority of the country, police have little training to deal with situations involving people with mental illness.</p>
+              </div>            
+            </div>
+            <div class="step" data-step="3">
+              <div class="text-block pa-2">
+                <p class="text-body-2"><b>7-10% of US police contacts involve persons with mental illnesses, with a disproportionate amount of these encounters resulting in arrest</b></p>
+                <p class="text-body-2">Offenses tend to be minor, such as trespassing or disorderly conduct.  An estimated 685,000 people with severe mental illness are incarcerated nationally every year.</p>
+              </div>            
+            </div>
+            <div class="step" data-step="4">
+              <div class="text-block pa-2">
+                <p class="text-body-2"><b>An estimated 44% of people in jail and 37% of people in prison have a mental health condition.</b></p>
+                <p class="text-body-2">And 10 - 25% suffer severe mental health concerns such as schizophrenia.  Correctional facilities have become de-facto mental health institutions, yet often don’t provide the treatment people really need.</p>
+              </div>            
+            </div>
+          </div>
+
+          <div class="col-6 scrolly__chart">
+            <iframe scrolling="no" src="https://flo.uri.sh/story/1240000/embed#slide-0"></iframe>
+          </div>
         </div>
       </div>
+  
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+    <script src="https://unpkg.com/intersection-observer"></script>
+    <script src="https://unpkg.com/scrollama"></script>    
+    <script src="https://public.flourish.studio/resources/embed.js"></script>
     
-      <!--  step/text container  -->
-      <div class='scroll__text'>
-        <div class='step' data-step='1'>
-          <p>STEP 1</p>
-        </div>
-        <div class='step' data-step='2'>
-          <p>STEP 2</p>
-        </div>
-        <div class='step' data-step='3'>
-          <p>STEP 3</p>
-        </div>
-        <div class='step' data-step='4'>
-          <p>STEP 4</p>
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-
-
+    <script>
+    var scrolly = d3.select("#scrolly__section");
+    var chart = scrolly.select(".scrolly__chart");
+    var content = scrolly.select(".scrolly__content");
+    var step = content.selectAll(".step");
+    
+    // initialize the scrollama
+    var scroller = scrollama();
+    
+    // generic window resize listener event
+    function handleResize() {
+      // 1. update height of step elements
+      var stepH = Math.floor(window.innerHeight * 1);
+      step.style("height", stepH + "px");
+    
+      var figureHeight = window.innerHeight * 0.75;
+      var figureMarginTop = (window.innerHeight - figureHeight) / 2;
+    
+      chart
+        .style("height", figureHeight + "px")
+        .style("top", figureMarginTop + "px");
+    
+      // 3. tell scrollama to update new element dimensions
+      scroller.resize();
+    }
+    
+    // scrollama event handlers
+    function handleStepEnter(response) {
+      const textblock = step.select(".text-block");
+    
+      // add color to current step only
+      textblock.classed("is-active", function(d, i) {
+        return i === response.index;
+      });
+    
+      // update graphic based on step
+      const linkHead = 'https://flo.uri.sh/story/1240000/embed#slide-'
+      const slide = response.index
+    
+      d3.select('.scrolly__chart iframe')
+        .attr('src', linkHead + slide);
+    }
+    
+    function setupStickyfill() {
+      d3.selectAll(".sticky").each(function() {
+        Stickyfill.add(this);
+      });
+    }
+    
+    function init() {
+      setupStickyfill();
+      handleResize();
+      scroller
+        .setup({
+          step: "#scrolly__section .scrolly__content .step",
+          offset: 0.7,
+        })
+        .onStepEnter(handleStepEnter);
+    
+      // setup resize event
+      window.addEventListener("resize", handleResize);
+    }
+    
+    init();
+  </script>
+    
 
 
     <!--Storyboard preface-->
-      <div class="container-fluid custombg mt-5 mb-5 pt-5 pb-5">
-        <div class="container">
-          <p>Accessibility and equity in emergency services is complex.  To mitigate this problem, out team partnered with accesSOS, a nonprofit organization that aims to make emergency services available to people who cannot call 911.
+      <div class="container-fluid custombg mt-5 mb-5 pt-5 pb-5 ">
+        <div class="container px-5">
+          <p>Accessibility and equity in emergency services is complex.  To address the challenge, our team partnered with accesSOS, a nonprofit organization that aims to make emergency services accessible to people unable to call 911, and who do not have text to 911 in their area.
             <br>
             <br>
-            We set out to learn about the emergency services domain, understand how diverse populations interact with the services, and how we can develop a trusted solution that meets their needs.</p>
+            We set out to learn about the emergency services domain, understand how diverse populations interact with the services, and how we can develop a trusted solution that meets their needs.
+            <br>
+            <br>          
+            When people think of emergency services in the United States, they think of 911.  Whether there is a fire, medical emergency, or criminal event, people call 911 for assistance.  But sometimes, it isn’t possible to verbally interact through a call.  Other times, interaction with 911 is avoided because of historical injustices embedded within the system.
+            <br>
+            <br>
+            People from different cultural, racial, and ability backgrounds have different experiences with 911.  Let’s take a moment and explore how experiences may differ based on an individual’s identity.
+          </p>
         </div>
       </div>
 
 
     <!--This is the Storyboard-->   
-    <div class="container-fluid mt-5 mb-5 pt-5 pb-5">
+    <div class="container-fluid mt-5 mb-5 pt-5 pb-5 px-5">
       <div class="container">
 
     <!--Personas-->      
         <div class="row">
-          <div class="col-md-4 text-center">   
+
+          <div class="col-md-3">
+            <!--intentionally blank-->  
+          </div>
+
+          <div class="col-md-3 text-center">   
             <p>
               <button class="btn btn-default" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
-                <img src="../assets/temp-storyboard.jpg" width="300"class="rounded" alt="temp">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/story1.jpg" width="200"class="rounded" alt="temp">
               </button>
             </p>
           </div>
 
-          <div class="col-md-4 text-center">   
-            <p>
-              <button class="btn btn-default" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                <img src="../assets/temp-storyboard2.PNG" width="300"class="rounded" alt="temp">
-              </button>
-            </p>
-          </div>
-
-          <div class="col-md-4 text-center">   
+          <div class="col-md-3 text-center">   
             <p>
               <button class="btn btn-default" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                <img src="../assets/temp-storyboard.jpg" width="300"class="rounded" alt="temp">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/story1.jpg" width="200"class="rounded" alt="temp">
               </button>
             </p>
+          </div>
+
+          <div class="col-md-3">
+            <!--intentionally blank-->  
           </div>
         </div>
 
@@ -135,18 +228,20 @@
         <div class="collapse" id="collapse1">
           <div class="card card-body">
             <div class="row">
-              <div class="col-md-3">
-                <img src="../assets/temp-storyboard.jpg" class="img-fluid float-end" alt="temp-storyboard">
+
+              <div class="col-md-3 text-center">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/story1.jpg" width="200" alt="temp-storyboard">
               </div>
-              <div class="col-md-3">
-                <img src="../assets/temp-storyboard.jpg" class="img-fluid float-end" alt="temp-storyboard">
+              <div class="col-md-3 text-center">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/story1.jpg" width="200" alt="temp-storyboard">
               </div>
-              <div class="col-md-3">
-                <img src="../assets/temp-storyboard.jpg" class="img-fluid float-end" alt="temp-storyboard">
+              <div class="col-md-3 text-center">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/story1.jpg" width="200" alt="temp-storyboard">
               </div>
-              <div class="col-md-3">
-                <img src="../assets/temp-storyboard.jpg" class="img-fluid float-end" alt="temp-storyboard">
+              <div class="col-md-3 text-center">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/story1.jpg" width="200" alt="temp-storyboard">
               </div>
+
             </div>
           </div>
         </div>
@@ -155,16 +250,16 @@
           <div class="card card-body">
             <div class="row">
               <div class="col-md-3">
-                <img src="../assets/temp-storyboard2.PNG" class="img-fluid float-end" alt="temp-storyboard">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/temp-storyboard2.PNG" class="img-fluid float-end" alt="temp-storyboard">
               </div>
               <div class="col-md-3">
-                <img src="../assets/temp-storyboard2.PNG" class="img-fluid float-end" alt="temp-storyboard">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/temp-storyboard2.PNG" class="img-fluid float-end" alt="temp-storyboard">
               </div>
               <div class="col-md-3">
-                <img src="../assets/temp-storyboard2.PNG" class="img-fluid float-end" alt="temp-storyboard">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/temp-storyboard2.PNG" class="img-fluid float-end" alt="temp-storyboard">
               </div>
               <div class="col-md-3">
-                <img src="../assets/temp-storyboard2.PNG" class="img-fluid float-end" alt="temp-storyboard">
+                <img src="https://amanda-kochak.github.io/newbootstrap/assets/temp-storyboard2.PNG" class="img-fluid float-end" alt="temp-storyboard">
               </div>
             </div>
           </div>
@@ -179,24 +274,53 @@
       </div>
     </div>
 
+
+    <!--This is our Scope--> 
+    <div class="container-fluid custombg mt-5 mb-5 pt-5 pb-5">
+      <div class="container px-5">
+        <p>All of these individuals have different experiences reaching out to or being the subject of a call to 911.  We can’t shape how emergency services act in a situation.  But we can design a system that ensures equal access to contacting emergency services, and that captures information that is more likely to influence a more appropriate response.  With this mission in mind, we began developing our design for a progressive web app for accesSOS.
+          <br>
+          <br>
+          The debate around policing and 911 in the United States is active and robust.  The issues are numerous, particularly in regards to racial inequities and the militarization of police.  As such, we felt it necessary to narrowly focus on specific facets of the problem space. 
+          <br>
+          <br>
+          Our research focused on two primary areas: 
+          <br>
+          <ol>
+            <li>User needs for a solution that enables them to contact both traditional emergency services (police, medical, fire) and mental crisis services.</li>
+            <li>Understanding the current emergency services landscape at both social and infrastructural levels to be able to incorporate an app into the existing system. </li>
+          </ol>
+          Learn more about our solution by clicking below.
+        </p>
+      </div>
+    </div>
+
+    <!--This is the button--> 
+    <div class="container-fluid mb-5 text-center">
+      <a href="https://amanda-kochak.github.io/newbootstrap/dist/solution.html" class="btn btn-primary btn-lg custombtn" role="button">What's the Solution?</a>
+    </div>
+
+    
+
+
     <!--This is the Footer-->  
-    <div class="container-fluid custombg mt-5 pt-5">
+    <div class="container-fluid custombg">
       <div class="container">
         <div class="row">
-          <div class="col-md-2">   
+          <div class="col-md-4">   
               <!-- Placeholder -->
           </div>
-          <div class="col-md-3">
-              <!-- Placeholder -->
+          <div class="col-md-4 text-center">
+              <p>University of California, Berkeley, School of Information, MIMS 2022.</p>
           </div>
-          <div class="col-md-7 text-center mt-5 pt-5 pb-5">   
+          <div class="col-md-4">   
               <!-- Placeholder -->
           </div>
         </div>
       </div>
     </div>
 
-    <script src="./index.js"></script>
+    <script src="https://amanda-kochak.github.io/newbootstrap/dist/index.js"></script>
 
   </body>
 </html>

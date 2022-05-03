@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../scss/custom.scss">
+    <link rel="stylesheet" href="https://amanda-kochak.github.io/newbootstrap/dist/custom.18d3a4a7.css">
     <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
 
     <title>Accessibility, Equity, and Resources for Crisis Response</title>
@@ -12,9 +12,9 @@
   <body>
 
     <!--This is the Nav Bar-->
-    <div class="container-fluid custombg">
+    <div class="container-fluid custombg" style="background-color:#F7F7F7">
         <!-- Content Here -->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F7F7F7">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#F7F7F7">
           <div class="container-fluid">
             <a class="navbar-brand fw-bold" href="#">Accessibility, Equity, and Resources for Crisis Response</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,22 +23,22 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Problem</a>
+                  <a class="nav-link" aria-current="page" href="https://amanda-kochak.github.io/newbootstrap/dist/index.html">Problem</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="solution.html">Solution</a>
+                  <a class="nav-link" href="https://amanda-kochak.github.io/newbootstrap/dist/solution.html">Solution</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Process
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="methods.html">Methods</a></li>
-                    <li><a class="dropdown-item" href="design.html">Design</a></li>
+                    <li><a class="dropdown-item" href="https://amanda-kochak.github.io/newbootstrap/dist/methods.html">Methods</a></li>
+                    <li><a class="dropdown-item" href="https://amanda-kochak.github.io/newbootstrap/dist/design.html">Design</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="story.html">Our Story</a>
+                  <a class="nav-link" href="https://amanda-kochak.github.io/newbootstrap/dist/story.html">Our Story</a>
                 </li>
               </ul>
             </div>
@@ -46,23 +46,180 @@
         </nav>
     </div>
 
-    <div class="container text-center mt-5 pt-5 pb-5">
-        <h1 class="fw-bold">This is the Method</h1>
-
-        <div id="observablehq-chart-80c5a19f"></div>
-
-
-<script type="module">
-import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-import define from "https://api.observablehq.com/d/3281622062722dc3.js?v=3";
-new Runtime().module(define, name => {
-  if (name === "chart") return new Inspector(document.querySelector("#observablehq-chart-80c5a19f"));
-});
-</script>
-
-
+    <!--This is the Header-->
+    <div class="container-fluid custombg">
+    <div class="container pt-5 mt-5 px-5">
+      <div class="row align-items-center">
+        <div class="col-md-1 pe-5">   
+          <!--This is intentionally left blank-->
+        </div>
+        <div class="col-md-4 pe-5">   
+          <img src="https://amanda-kochak.github.io/newbootstrap/assets/cycle.png" class="img-fluid float-end" alt="research and design cycle">
+        </div>
+        <div class="col-md-7">   
+          <h1 class="fw-bold">Methods</h1>  
+          <p>
+              Our team leveraged a variety of research techniques to understand the emergency services problem space, facilitate design decisions, and ultimately develop a solution that addresses critical needs for the accesSOS users.
+          </p>
+        </div>
+      </div>
+    </div>
     </div>
 
-    <script src="./index.js"></script>
+    <!--These are the stats-->
+    <div class="container-fluid">
+      <div class="container px-5">
+
+        <div class="row pt-5">
+
+          <div class="col-md-4 text-center">
+            <h2 class="fw-bold">9<br>Semi-structured<br>Interviews</h2>
+            <br>
+            <img src="https://amanda-kochak.github.io/newbootstrap/assets/inverview.png" width="200" alt="interview">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <h2 class="fw-bold">100<br>Card Sort & Survey<br>Respondents</h2>
+            <br>
+            <img src="https://amanda-kochak.github.io/newbootstrap/assets/survey.png" class="img-fluid float-end" alt="survey">
+          </div>
+
+          <div class="col-md-4 text-center">
+            <h2 class="fw-bold">8<br>Usability Test<br>Participants</h2>
+            <br>
+            <img src="https://amanda-kochak.github.io/newbootstrap/assets/usability-test.png" width="200" alt="usability test">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!--This is the first method-->
+    <div class="container-fluid custombg mb-5 mt-5 pb-5">
+      <div class="container pt-5 px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Semi-structured Qualitative Interviews</h2>    
+            <p>
+              In order to incorporate 988 into our app design, we knew we needed to develop an understanding of the needs of users that might use the service from experts already involved in mental illness and police response.  Therefore, we interviewed Crisis Intervention Specialists in cities across the country.
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="https://amanda-kochak.github.io/newbootstrap/assets/number01.png" class="img-fluid float-end" alt="number 1">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          <b>Crisis intervention specialists aim to avoid calling the police as much as possible.</b> They only involve the police in situations where the caller/person in question has a weapon, is violent or is actively trying to harm themselves or others.
+          <br>
+          <br>
+          <b>Crisis intervention specialists try to build trust and create a safe environment for the caller.</b> The majority of calls that crisis intervention specialsits  received were those regarding domestic abuse, depression, mental breakdowns, suicide ideation, and anxiety as a result of COVID’s stay at home orders. Being that these are all sensitive topics, callers may be reluctant to divulge information unprompted. Building trust and a safe environment allows the caller to feel comfortable speaking about their situations and thought processes.
+        </p>
+      </div>
+    </div>
+
+    <!--This is the second method-->
+    <div class="container-fluid mb-5 mt-5 pb-5">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Card Sort</h2>    
+            <p>
+              We conducted two card sort studies - one open card sort and a closed card sort. Our goal with these card sort studies was to understand people’s mental models and how they categorize different icons into groups.
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="https://amanda-kochak.github.io/newbootstrap/assets/number02.png" class="img-fluid float-end" alt="number 2">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          <b>Out of the 25 icons that we had, there were 5 that a majority of our users incorrectly categorized into the buckets for Medical, Report and Mental.</b> These were the icons for  Extreme Weather, Housing, Unknown Problem, Welfare Check and Disability.
+        </p>
+      </div>
+    </div>
+
+    <!--This is the third method-->
+    <div class="container-fluid custombg mb-5 mt-5 pb-5">
+      <div class="container pt-5 px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Survey</h2>    
+            <p>
+              We also conducted a qualtrics survey to further understand icon comprehension.  We showed our participants pictures of the icons in our app, absent a text descriptor, and asked them to label them with just one word.            
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="https://amanda-kochak.github.io/newbootstrap/assets/number03.png" class="img-fluid float-end" alt="number 3">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          <b>For 5 icons, there was a clear mismatch between how we labeled them and how our participants labeled them.</b> These were the icons for Unconscious, Mental Health, Suicide, Sexual Assualt and Unknown Problem.
+        </p>
+      </div>
+    </div>
+
+    <!--This is the fourth method-->
+    <div class="container-fluid mb-5 mt-5 pb-5">
+      <div class="container px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Quantitative Research</h2>    
+            <p>
+              We analyzed publicly available 911 calls for service data for 6 cities in order to understand existing call center categorization schemes of emergencies.  This involved data cleaning, feature engineering, and call type standardization.          
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="https://amanda-kochak.github.io/newbootstrap/assets/number04.png" class="img-fluid float-end" alt="number 4">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          After standardizing hundreds of call types, we found the most common call types revolved around traffic, property crime, assisting the public, suspicious persons, domestic violence, drugs, and behavioral health.        
+        </p>
+      </div>
+    </div>
+
+    <!--This is the fifth method-->
+    <div class="container-fluid custombg mb-5 mt-5 pb-5">
+      <div class="container pt-5 px-5">
+        <div class="row">
+          <div class="col-md-9">
+            <h2 class="fw-bold">Usability Study</h2>    
+            <p>
+              We conducted eight 30-45 minute usability interviews with deaf and hard of hearing participants from a deaf conference in Albuquerque and from The New Mexico School for the Deaf in Santa Fe March 14 - 18, 2022.
+            </p>
+          </div>
+          <div class="col-md-3">
+              <img src="https://amanda-kochak.github.io/newbootstrap/assets/number05.png" class="img-fluid float-end" alt="number 5">
+          </div>
+        </div>
+        <h3 class="fw-bold">Findings</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sodales consectetur dictum. Nullam in molestie arcu. Ut vestibulum arcu velit, ornare mollis nisl euismod sed. In sed erat eu dolor bibendum sodales quis sed magna. Curabitur ut eros rhoncus, faucibus augue quis, mollis dui. 
+        </p>
+      </div>
+    </div>
+
+        <!--This is the Footer-->  
+        <div class="container-fluid custombg">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">   
+                  <!-- Placeholder -->
+              </div>
+              <div class="col-md-4 text-center">
+                  <p>University of California, Berkeley, School of Information, MIMS 2022.</p>
+              </div>
+              <div class="col-md-4">   
+                  <!-- Placeholder -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+    <script src="https://amanda-kochak.github.io/newbootstrap/dist/index.js"></script>
   </body>
 </html>

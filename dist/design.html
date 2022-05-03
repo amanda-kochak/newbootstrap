@@ -12,8 +12,8 @@
   <body>
 
     <!--This is the Nav Bar-->
-    <div class="container-fluid custom bg">
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#F7F7F7">
+    <div class="container-fluid custom bg" style="background-color:#F7F7F7">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color:#F7F7F7">
           <div class="container-fluid">
             <a class="navbar-brand fw-bold" href="#">Accessibility, Equity, and Resources for Crisis Response</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,20 +63,20 @@
     </div>
 
     <!--Introduction of feature highlights-->
-    <div class="container-fluid mt-5 mb-5 pt-5 pb-5">
-      <div class="container">
-        <p>This is the intro to the features. <br> This is the intro to the features. <br> This is the intro to the features.</p>
+    <div class="container-fluid pt-5 ">
+      <div class="container px-5">
+        <p>The accesSOS app enhances the emergency contact for service experience with the incorporation of a “mental” category, while still accurately representing 911 classification schemes.  To date, there are no official 988 classification schemes, so we based our categorization on user and domain expert research.  Our team’s research led us to create the following design principles to guide our app design.</p>
       </div>
     </div>
 
     <!--These are the feature highlights-->
-    <div class="container-fluid mt-5 pt-5 mb-5 pb-5">
-      <div class="container">
+    <div class="container-fluid pt-3">
+      <div class="container px-5">
         <div class="row">
           <div class="col-md-3 d-flex align-items-stretch">   
             <div class="card">
               <div class="card-body">
-                <h1 class="card-title pb-3">Rapid</h1>
+                <h3 class="card-title pb-3">Rapid</h3>
                 <p class="card-text">Figuring out your location during an emergency takes time - that's why we do it for you.</p>
               </div>
             </div>
@@ -84,7 +84,7 @@
           <div class="col-md-3 d-flex align-items-stretch">
             <div class="card">
               <div class="card-body">
-                <h1 class="card-title pb-3">Representative</h1>
+                <h3 class="card-title pb-3">Representative</h3>
                 <p class="card-text">Our emergency classifications represent existing PSAP classification schemes to seemlessly integrate into the existing 911 ecosystem.</p>
               </div>
             </div>
@@ -92,7 +92,7 @@
           <div class="col-md-3 d-flex align-items-stretch">   
             <div class="card">
               <div class="card-body">
-                <h1 class="card-title pb-3">Inclusive</h1>
+                <h3 class="card-title pb-3">Inclusive</h3>
                 <p class="card-text">Visual icons enable comprehension by everyone, regardless of English proficiency.</p>
               </div>
             </div>
@@ -100,7 +100,7 @@
           <div class="col-md-3 d-flex align-items-stretch">   
             <div class="card">
               <div class="card-body">
-                <h1 class="card-title pb-3">Crisis Conscious</h1>
+                <h3 class="card-title pb-3">Crisis Conscious</h3>
                 <p class="card-text">Not every emergency requires police response, so we've got you covered by connecting you with a mental health professional instead.</p>
               </div>
             </div>
@@ -111,27 +111,44 @@
 
     <!--First feature highlight-->
     <div class="container-fluid custombg mt-5 mb-5 pt-5 pb-5">
-      <div class="container">
+      <div class="container px-5">
         <div class="row">
-          <div class="col-md-3">
-              <img src="/Rapid.38cd84b6.png" class="img-fluid float-end" alt="pwa confirming location">
+          <div class="col-md-3 pt-2 px-5">
+              <img src="/rapid2.fb7a5457.png" class="img-fluid float-end" alt="pwa confirming location">
           </div>
-          <div class="col-md-9 mt-5  pt-5 ">   
-              <h1 class="fw-bold">Rapid</h1> 
+          <div class="col-md-9 pt-2 ps-3">
+            <h1 class="fw-bold">Rapid</h1>    
+            <p>Accurately identifying a 911 caller’s physical location can be a matter of life and death.  Many people don’t realize it, but 911 call centers cannot target a caller’s exact location when calling from a cell phone.  This is largely due to the outdated technology they depend on.</p>  
+            <p>
+                <b>accesSOS automatically detects emergency location:</b> acceSOS enables modern location sharing.  When someone contacts 911 or 988 through the app, their location is automatically detected.  And just like any other map service, if the caller needs to manually change their location, they can do that too.
+                <br>
+                <br>
+                <b>accesSOS has a tiered submission flow to accommodate urgency:</b> Our design affords rapid submission for extremely urgent situations, in which the user only confirms their location and enters details like the emergency type.  But if the situation is less urgent, the user is prompted to share more details about their emergency if they can.  The more information provided, the more prepared emergency responders can be to address the request.
+                <br>
+                <br>
+              </p>
           </div>
         </div>
       </div>
     </div>
 
     <!--Second feature highlight-->
-    <div class="container-fluid mt-5 mb-5 pt-5 pb-5">
-      <div class="container">
+    <div class="container-fluid">
+      <div class="container px-5">
         <div class="row">
-          <div class="col-md-9 mt-5  pt-5 ">   
+          <div class="col-md-9 pt-2 pe-3">   
             <h1 class="fw-bold">Representative</h1> 
+            <p>911 call centers in the United States are independent entities - there is no national standardization that determines their policies, procedures, or emergency classification schemes.</p>
+
+            <p>
+              <b>accesSOS’ emergency categories and questions align with call taker needs:</b> We leveraged industry expert interviews, research into mental models around emergencies, and data analysis of publicly available 911 call records to uncover a holistic representation of the types of emergencies that are called into 911, and the type of information call takers need.
+              <br>
+              <br>
+              <b>Emergency call takers still decide who to dispatch:</b> When someone calls 911, the call taker decides whether to dispatch police, medical, or the fire department - regardless of who the caller asks for.  We can’t change this.  But for emergencies that only fall within our “mental” category, with no weapons or life threatening characteristics, we can route those to 988 directly.
+            </p>
           </div>
-          <div class="col-md-3">
-              <img src="/Representative.fe46a052.png" class="img-fluid float-end" alt="pwa confirming location">
+          <div class="col-md-3 pt-2 px-5">
+              <img src="/representative2.4e58e695.png" class="img-fluid float-end" alt="pwa weapons inquiry">
           </div>
         </div>
       </div>
@@ -139,26 +156,36 @@
 
     <!--Third feature highlight-->
     <div class="container-fluid custombg mt-5 mb-5 pt-5 pb-5">
-      <div class="container">
+      <div class="container px-5">
         <div class="row">
-          <div class="col-md-3">
-              <img src="/Inclusive.83ba8911.png" class="img-fluid float-end" alt="pwa confirming location">
+          <div class="col-md-3 pt-2 px-5">
+              <img src="/Inclusive.83ba8911.png" class="img-fluid float-end" alt="pwa medical category">
           </div>
-          <div class="col-md-9 mt-5  pt-5 ">   
-              <h1 class="fw-bold">Inclusive</h1> 
+          <div class="col-md-9 pt-2 ps-3">  
+            <h1 class="fw-bold">Inclusive</h1>  
+            <p>Not everyone that may contact emergency services through the app is fully literate or proficient in English.  While the app will be translated into many languages, incorporating accurate yet non-disturbing visuals ensures that no one is left out from reaching 911 or 988 in their time of need.</p>
+            <p>
+                <b>The accesSOS app is highly visual by design:</b> Thoughtful icons minimize cognitive load and enable users to identify the emergency they are experiencing more quickly than if they were presented with text alone.  Our team carried out extensive studies and went through numerous iterations of icon designs to optimize user understanding during their time of crisis.
+              </p>
           </div>
         </div>
       </div>
     </div>
 
     <!--Fourth feature highlight-->  
-    <div class="container-fluid mt-5 mb-5 pt-5 pb-5">
-      <div class="container">
+    <div class="container-fluid mb-5 pb-5">
+      <div class="container px-5">
         <div class="row">
-          <div class="col-md-9 mt-5  pt-5 ">   
-            <h1 class="fw-bold">Crisis Conscious</h1> 
+          <div class="col-md-9 pt-2 pe-3">
+            <h1 class="fw-bold">Crisis Conscious</h1>    
+            <p>
+              <b>Emergencies are scary, reporting them doesn’t have to be scary too:</b> We aim to foster trust and create a safe environment for users to interact with our design.  Our app uses a simple flow, friendly design elements, and an overall appealing appearance so that users aren’t further distressed by the app and can feel confident that their emergencies are being transmitted to 911 or 988 call takers.
+              <br>
+              <br>
+              Not only that, but our design holds a robust categorization of mental and behavioral health issues that users can select from to make their call for help seamless.  Once an official classification scheme for 988 is released, we will incorporate these categories into our design for an integrated experience with national emergency systems.
+            </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 pt-2 px-5">
               <img src="/Trauma Informed.9548ee4d.png" class="img-fluid float-end" alt="pwa confirming location">
           </div>
         </div>
@@ -166,16 +193,16 @@
     </div>
 
     <!--This is the Footer-->  
-    <div class="container-fluid custombg mt-5 pt-5">
+    <div class="container-fluid custombg">
       <div class="container">
         <div class="row">
-          <div class="col-md-2">   
+          <div class="col-md-4">   
               <!-- Placeholder -->
           </div>
-          <div class="col-md-3">
-              <!-- Placeholder -->
+          <div class="col-md-4 text-center">
+              <p>University of California, Berkeley, School of Information, MIMS 2022.</p>
           </div>
-          <div class="col-md-7 text-center mt-5 pt-5 pb-5">   
+          <div class="col-md-4">   
               <!-- Placeholder -->
           </div>
         </div>

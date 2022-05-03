@@ -47,12 +47,12 @@
 }
 
 .text-block.is-active {
-  background-color: #f0fbda;
+  background-color: #FFFEF9;
   color: #3b3b3b;
 }
 
 .text-block {
-  background-color: #bebdbc;
+  background-color: #f4f4f4;
 }
 
 .step p {
@@ -11233,7 +11233,7 @@ textarea.form-control-lg {
 
 body {
   font-family: "Mulish";
-  font-size: 22px;
+  font-size: 16px;
 }
 
 .card {
@@ -11244,11 +11244,15 @@ body {
 .card-title {
   color: #de3f52;
   font-weight: bold;
-  font-size: 35px;
 }
 
 .custombg {
-  background: #F7F7F7;
+  background: #FFFEF9;
+}
+
+.custombtn {
+  color: #fff;
+  border-radius: 40px;
 }
 
 .circle-with-text {

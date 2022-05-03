@@ -52,12 +52,12 @@ $primary: #de3f52;
   }
 
   .text-block.is-active {
-    background-color: rgb(240, 251, 218);
+    background-color: #FFFEF9;
     color: #3b3b3b;
   }
 
   .text-block {
-    background-color: rgb(190, 189, 188);
+    background-color: rgb(244, 244, 244);
   }
 
   .step p {
@@ -85,7 +85,7 @@ $primary: #de3f52;
 }
 
 body {
-    font-family: 'Mulish';font-size: 22px;
+    font-family: 'Mulish';font-size: 16px;
 }
 
 .card {
@@ -96,11 +96,15 @@ body {
 .card-title {
     color:$primary;
     font-weight: bold;
-    font-size: 35px;
 }
 
 .custombg {
-    background: #F7F7F7;
+    background: #FFFEF9;
+}
+
+.custombtn {
+  color:#fff;
+  border-radius: 40px;
 }
 
 
